@@ -18,6 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TimerCalculatePrincipleActivity" />
+        <activity android:name=".UartPrincipleActivity"></activity>
     </application>
 
 </manifest>
