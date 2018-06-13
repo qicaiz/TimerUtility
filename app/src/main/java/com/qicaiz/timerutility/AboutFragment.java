@@ -68,6 +68,13 @@ public class AboutFragment extends Fragment {
                 startActivity(new Intent(getContext(),TimerCalculatePrincipleActivity.class));
             }
         });
+        TextView uartTxt = (TextView) view.findViewById(R.id.txt_uart);
+        uartTxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getContext(),UartPrincipleActivity.class));
+            }
+        });
         return view;
     }
 

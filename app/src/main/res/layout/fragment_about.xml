@@ -18,6 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"/>
     <TextView
+        android:id="@+id/txt_uart"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,10 +33,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/txt_size"
-        android:text="关于作者" />
-    <View
-        android:background="#000000"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"/>
+        android:text="淘宝店铺" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/txt_size"
+        android:gravity="center"
+        android:text="如果在使用的过程中发现bug，欢迎通过zhouqicai415@163.com邮箱与我反馈。"
+        />
+
 
 </LinearLayout>
